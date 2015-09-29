@@ -1,7 +1,11 @@
 package p2;
 
 import java.util.Comparator;
-
+/**
+ * comparator for helping compare the distances among KNN Data
+ * @author Zhaokun Xue
+ *
+ */
 public class DistanceComparator implements Comparator<KnnData> {
 
 	@Override
